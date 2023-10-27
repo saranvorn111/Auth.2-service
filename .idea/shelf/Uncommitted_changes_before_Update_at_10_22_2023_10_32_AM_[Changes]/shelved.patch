@@ -1,0 +1,78 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Gradle Imported\" enabled=\"true\">\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <processorPath useClasspath=\"false\">\r\n          <entry name=\"$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.28/a2ff5da8bcd8b1b26f36b806ced63213362c6dcc/lombok-1.18.28.jar\" />\r\n        </processorPath>\r\n        <module name=\"oauth2-server.main\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 72a5c88c271240361654c2a7b13a1bae0dd7717c)
++++ b/.idea/compiler.xml	(date 1693542385986)
+@@ -7,7 +7,7 @@
+         <processorPath useClasspath="false">
+           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.28/a2ff5da8bcd8b1b26f36b806ced63213362c6dcc/lombok-1.18.28.jar" />
+         </processorPath>
+-        <module name="oauth2-server.main" />
++        <module name="oauth2-client.main" />
+       </profile>
+     </annotationProcessing>
+   </component>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"FrameworkDetectionExcludesConfiguration\">\r\n    <file type=\"web\" url=\"file://$PROJECT_DIR$/oauth2-server\" />\r\n  </component>\r\n  <component name=\"ProjectRootManager\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 72a5c88c271240361654c2a7b13a1bae0dd7717c)
++++ b/.idea/misc.xml	(date 1693542385952)
+@@ -2,9 +2,11 @@
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+   <component name="FrameworkDetectionExcludesConfiguration">
++    <file type="web" url="file://$PROJECT_DIR$/oauth2-client" />
++    <file type="web" url="file://$PROJECT_DIR$/oauth2-resource-server" />
+     <file type="web" url="file://$PROJECT_DIR$/oauth2-server" />
+   </component>
+-  <component name="ProjectRootManager">
++  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$/oauth2-server\" />\r\n        <option name=\"gradleJvm\" value=\"#JAVA_HOME\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$/oauth2-server\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 72a5c88c271240361654c2a7b13a1bae0dd7717c)
++++ b/.idea/gradle.xml	(date 1693542385997)
+@@ -4,6 +4,24 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
++        <option name="externalProjectPath" value="$PROJECT_DIR$/oauth2-client" />
++        <option name="gradleJvm" value="#JAVA_HOME" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$/oauth2-client" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++      <GradleProjectSettings>
++        <option name="externalProjectPath" value="$PROJECT_DIR$/oauth2-resource-server" />
++        <option name="gradleJvm" value="#JAVA_HOME" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$/oauth2-resource-server" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++      <GradleProjectSettings>
+         <option name="externalProjectPath" value="$PROJECT_DIR$/oauth2-server" />
+         <option name="gradleJvm" value="#JAVA_HOME" />
+         <option name="modules">

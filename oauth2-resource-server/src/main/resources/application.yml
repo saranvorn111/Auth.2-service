@@ -1,0 +1,20 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080
+
+
+#START OPAQUE TOKEN CONFIG
+#        opaquetoken:
+#          introspection-uri: http://localhost:8080/oauth2/introspect
+#          client-id: kangchi
+#          client-secret: secret
+#  autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
+#END OPAQUE TOKEN CONFIG
+
+server:
+  port: 8081
+

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c925db9-debd-4bbd-abd2-e6ab0b51b597" name="Changes" comment="Fix object mapper">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a6344930-3c61-44f9-a84b-3cafaa7c8849.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_22_2023_10_32_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_22_2023_10_32_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/oauth2-client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/oauth2-resource-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/oauth2-server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Um4tLCjf7NpizIN2qwPpjvJekc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/scrolership_ISTAD/Spring_advance/core-service/basic-oauth2-sb3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "spring.configuration.checksum": "bf3f7b11a9aad922b9c5e0f165867e52",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Oauth2ServerApplication">
+    <configuration name="Oauth2ClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="com.developerscambodia.oauth2-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.developerscambodia.oauth2client.Oauth2ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="oauth2-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.developerscambodia.oauth2client.Oauth2ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ResourceServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="com.developerscambodia.oauth2-resource-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.developerscambodia.oauth2resourceserver.Oauth2ResourceServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ResourceServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oauth2-resource-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.developerscambodia.oauth2resourceserver.Oauth2ResourceServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.developerscambodia.oauth2resourceserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="com.developerscambodia.oauth2-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.developerscambodia.oauth2server.Oauth2ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oauth2-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.developerscambodia.oauth2server.Oauth2ServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.developerscambodia.oauth2server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Oauth2ClientApplication (1)" />
+      <item itemvalue="Spring Boot.Oauth2ResourceServerApplication (1)" />
+      <item itemvalue="Spring Boot.Oauth2ServerApplication (1)" />
+      <item itemvalue="Spring Boot.Oauth2ClientApplication" />
+      <item itemvalue="Spring Boot.Oauth2ServerApplication" />
+      <item itemvalue="Spring Boot.Oauth2ResourceServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Oauth2ServerApplication" />
+        <item itemvalue="Spring Boot.Oauth2ResourceServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c925db9-debd-4bbd-abd2-e6ab0b51b597" name="Changes" comment="" />
+      <created>1693531635516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693531635516</updated>
+      <workItem from="1693531636518" duration="830000" />
+      <workItem from="1693533008233" duration="33000" />
+      <workItem from="1693533084285" duration="6868000" />
+      <workItem from="1694079470136" duration="607000" />
+      <workItem from="1697777810710" duration="21000" />
+      <workItem from="1697777862231" duration="602000" />
+      <workItem from="1697945026329" duration="15791000" />
+      <workItem from="1698031979404" duration="12294000" />
+      <workItem from="1698389432854" duration="65000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fix object mapper">
+      <option name="closed" value="true" />
+      <created>1697967682237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697967682237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fix object mapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix object mapper" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
